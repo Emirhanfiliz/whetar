@@ -1,16 +1,26 @@
-# React + Vite
+#Birçok yönden geliştirebilirsin:
+Basit eklemeler:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+5 günlük tahmin (forecast API)
+Favori şehirler listesi (localStorage'a kaydet)
+Son aranan şehirler geçmişi
+Konum izni al, otomatik şehir tespit et
+Saat ve tarih göster
+Hava durumuna göre arkaplan değiştir
+Hava ikonu ekle (API'den geliyor)
 
-Currently, two official plugins are available:
+Orta seviye:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Birden fazla şehir karşılaştır
+Grafik ekle (sıcaklık değişimi)
+Türkiye haritası, şehirlere tıklayınca o şehrin havası
+Dark/light mode
+Dil değiştirme
 
-## React Compiler
+İleri seviye:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Hava durumuna göre kıyafet önerisi
+Saat bazlı tahmin
+Push notification (hava değişince bildirim)
+Backend yap, kullanıcı kayıt/giriş
+Sosyal özellik (hava durumu paylaşma)
